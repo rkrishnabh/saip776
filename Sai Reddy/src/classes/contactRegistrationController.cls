@@ -15,7 +15,7 @@ public with sharing class contactRegistrationController {
 
 
 	
-        //end conversion datetime
+        //end conversion datetime test ramakrishna kumar
         system.debug('myDate..'+myDate);
         Contact con = new Contact();
            con.firstname = FirstName;
