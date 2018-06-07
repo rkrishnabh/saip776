@@ -17,7 +17,7 @@ public with sharing class contactRegistrationController {
 	
         //end conversion datetime moving to test branch
         system.debug('myDate..'+myDate);
-        Contact con = new Contact;
+        Contact con = new Contact();
            con.firstname = FirstName;
        		con.lastname = lastname;
            con.Birthdate = myDate;
